@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+
+
+.top_nav {
+    margin: 1.3em 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.top_nav img {
+    width: 60px;
+    height: 28px;
+    margin-right: 2em;
+}
+
+.top_nav div a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 2em;
+    font-size: 1rem;
+    margin-top: 1em;
+}
+
+.top_nav div .live {
+    margin-left: 0.3em;
+
+}
+
+.top_nav div .color_one {
+    color: #d34312;
+    margin-right: 21em;
+}
+
+.top_nav div .color_two {
+    color: blue;
+}
+
+.gap-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+hr {
+    border: none;        /* Remove the browser's default grey border */
+    height: 1px;         /* This becomes your line's "thickness" */
+    background-color: #0000001c; /* Your chosen color */
+  }
+
+  .top_nav div .style-check-size {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .bottom_nav ul {
+    margin: 1.5em 2.75em;
+
+
+  }
+
+  .bottom_nav ul li a {
+    color: black;
+    font-size: 0.85rem;
+  }
+
+  section ul li .about_color {
+    color: #d34312;
+  }
+
+  .bottom_nav-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    color: black;
+  }
+
+  .bottom_nav-ul a {
+    text-decoration: none;
+    font-family: "Roboto";
+
+  }
+
+  header {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fd5948;   
+    font-family: "Roboto";
+
+    font-size: 8rem;
+    font-weight: normal;
+}
+
+.we_make {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10em 20em;
+}
+
+.we_make .para_one {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    font-family: "Roboto";
+}
+
+.we_make .para_two {
+    margin-top: 1.5em;
+    font-size: 1.25rem;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.span_blue {
+    color: blue;
+}
+
+.imagery div {
+    background: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.white_bg img {
+    width: 600px;
+    max-height: 600px;
+
+}
+
+.yellow div img {
+width: 60%;
+height: 40%;
+}
+
+.imagery div {
+    display: flex;
+}
+
+.yellow div {
+    background: #FBFFA7;
+    display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+align-items: center;
+width: 839px;
+height: 839px;
+}
+
+.white_bg div img {
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+.making_music {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10em 20em;
+}
+
+.making_music .making_para_one {
+  font-size: 1.875rem;
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+
+.making_music .making_para_two {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.video_one {
+  text-align: center;
+  margin-top: 10em;
+}
+
+.why_ableton {
+  font-family: "Roboto";
+  margin-bottom: 5em;
+  font-size: 0.775rem;
+  margin-left: 0.5em;
+}
+
+.we_are-more .first_one {
+  font-size: 1.875rem;
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+.we_are-more .second_one {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.imagery_two div {
+  background: white;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.white_bg_two img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+.green div img {
+width: 60%;
+height: 40%;
+}
+
+.imagery_two div {
+  display: flex;
+}
+
+.green div {
+  background: #B6FFC0;
+  display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+align-items: center;
+width: 839px;
+height: 839px;
+}
+
+.white_bg_two div img {
+  position: relative;
+  right: 10%;
+  top: 15%;
+}
+
+.stackem {
+  display: flex;
+  gap: 100px;
+}
+
+.we_believe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10em 20em;
+}
+
+.para_one-believe {
+  font-size: 1.875rem;
+  line-height: 1.4;
+  font-family: "Roboto";
+}
+
+.para_two-believe {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.img_poster {
+  text-align: center;
+}
+
+.para_three-believe {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.purple_section {
+  display: flex;
+  justify-content: center;}
+
+.color_purple {
+  background: #D5B3FF;
+  height: 960px;
+  width: 840px;
+}
+
+.both_img_row {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  position: relative;
+  right: 250px;
+  top: 175px;
+}
+
+.sizing-img {
+  width: 480px;
+  height: 360px;
+}
+
+.sizing_two {
+  width: 760px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.job_box {
+  width: 50%;
+}
+
+.job_color {
+  background: #B1C5FF;
+  width: 50%;
+
+}
+
+.job_color p {
+  font-size: 1.775rem;
+  line-height: 1.4;
+    font-family: "Roboto";
+
+}
+
+
+.box_margin {
+display: flex;
+margin: 5em;
+margin-top: 1em;
+max-width: 100%;
+}
+
+
+
+.box_margin div img{
+  width: 100%;
+  height: 100%;
+}
+
+.see_jobs {
+  font-size: 1.775em;
+  line-height: 4;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: blue;
+
+}
+
+.job_color {
+  padding: 7em;
+}
+
+.logo-again {
+  max-width: 188px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  margin: 5em 10em;
+  max-width: 100%;
+  height: 100%;
+  gap: 50px;
+}
+
+
+.footer div { 
+  width: 30%;
+}
+
+.register ul {
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+.register ul li a {
+  list-style-type: none;
+  margin-top: 0.5em;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+li .socials {
+  display: flex;
+}
+
+
+
+.community ul {
+  list-style-type: none;
+  margin-top: 3em;
+  line-height: 1.5;
+
+}
+
+.community ul a {
+  list-style-type: none;
+  margin-top: 0.5em;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.bold_comm, .bold_edu {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.education {
+  padding-top: 6em;
+}
+
+.education ul {
+  list-style-type: none;
+  line-height: 1.5;
+
+}
+
+.education ul a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.lang_loc {
+  margin-top: 1.5em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+
+}
+
+option {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  border:  none;
+}
+
+.selection_Stuff ul li {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.selection_Stuff ul {
+display: flex;
+gap: 10px;
+margin-top: 1em;
+}
+
+select {
+  font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: bold;
+font-size: inherit;
+width: 100%;
+margin: 0;
+padding: .4em .75em;
+background: transparent;
+  background-color: transparent;
+background-color: #eee;
+border: 0;
+user-select: none;
+height: 1.875rem;
+padding: .35em 50px .35em .75em;
+border-radius: 0;
+cursor: pointer;
+color: #000;
+}
+
+.newsletter_sign {
+  padding-top: 6em;
+  color: black;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.newsletter_para {
+  margin-top: 0.5em;
+}
+
+.form_signup {
+  margin-top: 1em;
+}
+
+.Email-add {
+margin: 0;
+padding: .7em .3em;
+background: transparent;
+  background-color: transparent;
+background-color: #eee;
+border: 0;
+user-select: none;
+font-weight: normal;
+border-radius: 0;
+
+}
+
+button {
+  display: inline-block;
+margin: 0;
+padding: .35em 1.5em;
+font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: bold;
+font-size: inherit;
+color: #fff !important;
+background: blue;
+border: 0;
+border-radius: 0;
+cursor: pointer;
+appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  gap: 25%;
+  text-align: center;
+}
+
+footer .ul_one, footer .ul_two {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: .8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .ul_one li a {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: .8rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2em;
+
+}
+ 
+.ul_one {
+  display: flex;
+  gap: 10px; 
+}
+
+.ul_two {
+  display: flex;
+  gap: 10px; 
+
+}
+
+footer .ul_two li p {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: .8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  margin-bottom: 5em;
+}
+footer img {
+}
